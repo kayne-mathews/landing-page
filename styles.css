@@ -26,6 +26,15 @@ ol {
   padding-right: 200px;
   background-color: #1f2937;
   color: #f9faf8;
+  gap: 40px;
+}
+
+.header-logo {
+  flex-shrink: 0;
+}
+
+.header-logo.logo {
+  font-weight: bold;
 }
 
 .first {
@@ -38,6 +47,8 @@ ol {
   padding-bottom: 50px;
   padding-left: 200px;
   padding-right: 200px;
+  gap: 25px;
+  flex-wrap: wrap;
 }
 
 .awesome {
@@ -66,8 +77,93 @@ ol {
 .second {
  display: flex;
  flex-direction: column;
+ padding-top: 70px;
+ padding-bottom: 100px;
 }
 
 .random-info {
   text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+}
+
+.image img {
+ border: blue solid 1px;
+ border-radius: 5px;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  text-align: left;
+  flex-direction: column;
+  padding: 100px 550px;
+}
+
+.inspire {
+  color: #1f2937;
+  font-size: 36px;
+  margin: 0;
+  min-width: 550px;
+}
+
+.thor {
+  display: flex;
+  justify-content: end;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.fourth {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+  color: white;
+  margin: 100px 250px;
+  padding: 40px 150px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  min-width: 200px;
+}
+
+.second-button {
+ display: flex;
+ align-self: center;
+ background-color: #3882F6;
+ color: white;
+ padding: 7px 20px;
+ border-radius: 5px;
+ border: 1px white solid;
+}
+
+.call {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sign {
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  flex: 1;
 }
